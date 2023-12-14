@@ -174,7 +174,7 @@ header h1 {
 .dos-columnas :first-child {
     margin-bottom: 4rem;
 }
-@media (min-width: 400px) {
+@media (min-width: 768px) {
     .dos-columnas {
         flex-direction: row;
         align-items: center;
