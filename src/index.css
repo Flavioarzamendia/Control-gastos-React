@@ -64,6 +64,7 @@ header h1 {
 }
 @media (min-width: 400px) {
     .formulario {
+        display: block;
         padding: 5rem 0;
         width: 60rem;
         min-width: 200px;
@@ -100,6 +101,7 @@ header h1 {
     border: none;
     flex: 1;
     font-size: 1.6rem;
+    
 }
 .formulario input[type="submit"] {
     background-color: #1048a4;
@@ -118,6 +120,7 @@ header h1 {
     .formulario input[type="submit"] {
         display: block;
         padding: 1rem 5rem;
+        
     }
 }
 .formulario input[type="submit"]:hover {
@@ -171,7 +174,7 @@ header h1 {
 .dos-columnas :first-child {
     margin-bottom: 4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 400px) {
     .dos-columnas {
         flex-direction: row;
         align-items: center;
