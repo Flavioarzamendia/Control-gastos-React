@@ -62,11 +62,12 @@ header h1 {
     margin: 0 auto;
     padding: 10rem 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 400px) {
     .formulario {
         padding: 5rem 0;
         width: 60rem;
     }
+    
 }
 .formulario legend {
     font-size: 3.6rem;
@@ -112,7 +113,7 @@ header h1 {
     width: 100%;
     transition: background-color 300ms ease;
 }
-@media (min-width: 768px) {
+@media (min-width: 400px) {
     .formulario input[type="submit"] {
         display: block;
         padding: 1rem 5rem;
