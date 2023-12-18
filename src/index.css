@@ -62,12 +62,12 @@ header h1 {
     margin: 0 auto;
     padding: 10rem 0;
 }
-@media (min-width: 400px) {
+@media (min-width: 768px) {
     .formulario {
         display: block;
         padding: 5rem 0;
-        width: 60rem;
-        min-width: 200px;
+        width: 80rem;
+        min-width: 400px;
     }
     
 }
@@ -93,6 +93,17 @@ header h1 {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 500px) {
+
+    .formulario{
+        width: auto auto;
+    }
+    .formulario label {
+        color: var(--azul);
+        font-size: 2rem;
+        margin: auto;
+    }
+  }
 .formulario input[type="text"],
 .formulario input[type="number"] {
     background-color: var(--gris-claro);
@@ -116,11 +127,15 @@ header h1 {
     width: 100%;
     transition: background-color 300ms ease;
 }
-@media (min-width: 400px) {
+@media (min-width: 768px) {
     .formulario input[type="submit"] {
         display: block;
         padding: 1rem 5rem;
         
+    }
+    .formulario input[type="number"] {
+        display: block;
+        padding: 1rem 5rem;
     }
 }
 .formulario input[type="submit"]:hover {
