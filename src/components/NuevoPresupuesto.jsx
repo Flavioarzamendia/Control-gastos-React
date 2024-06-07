@@ -19,7 +19,7 @@ const [mensaje, setMensaje]= useState("");
     <div className="contenedor-presupuesto contenedor sombra">
         <form onSubmit={handlePresupuesto} className="formulario">
             <div className=" campo">
-                <label htmlFor="">Definir Presupuesto</label>
+                <label htmlFor="">Ingrese el Presupuesto</label>
                 <input
                 className="nuevo-presupuesto"
                 type="number"
